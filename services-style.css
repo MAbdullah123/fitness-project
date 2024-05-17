@@ -1,0 +1,102 @@
+* {
+      margin: 0;
+      box-sizing: border-box;
+}
+
+
+.main .banner-image {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      aspect-ratio: 2/1;
+}
+
+
+.main .banner-image .bgrd {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* display: none; */
+}
+
+.banner-image .anime {
+      position: absolute;
+      height: 100%;
+      bottom: 0%;
+      z-index: 5;
+      /* Adjust as needed */
+      left: 50%;
+      /* Adjust as needed */
+      transform: translateX(-50%);
+      /* Centers the image */
+}
+
+/* .main .banner-image .anime img {
+      padding-bottom: 300px;
+} */
+
+.banner-image h1 {
+      /* color: #E23640; */
+      /* color: orangered; */
+      color: antiquewhite;
+      font-family: 'Racing Sans One';
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 5%;
+      font-size: 5rem;
+      transform: translateY(-50%);
+}
+
+.Personal-Training {
+      overflow: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-left: 100px;
+      padding-right: 20px;
+}
+
+.fascilities {
+      border: 1px solid black;
+      border-radius: 4px;
+      /* margin-bottom: 20px; */
+      flex: 0 0 30%;
+}
+
+.Personal-Training .fascilities .Personal {
+      padding-left: 20px;
+      font-family: 'Helvetica';
+}
+
+.Personal-Training .fascilities .Personal h1 {
+      padding-left: 20px;
+      font-family: 'Helvetica';
+}
+
+
+.headings1 {
+      /* padding: 100px; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1rem;
+      border: 1px solid black;
+      height: 200px;
+}
+
+.headings1 .fasilities {
+      display: flex;
+      align-items: center;
+      /* padding-right: -100px; */
+      /* padding-left: 100px; */
+
+}
+
+.headings1 .h2 {
+      font-size: 30pt;
+      font-family: 'Helvetica';
+}

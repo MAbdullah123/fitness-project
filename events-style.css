@@ -1,0 +1,108 @@
+* {
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.navBar {
+      height: 100px;
+      max-width: 100%;
+      background-color: white;
+      border: 1px solid black;
+}
+
+.navBar .center h1 {
+      border: 1px solid black;
+}
+
+.center {
+      max-width: 960px;
+      margin: auto;
+}
+
+.center ul {
+      list-style: none;
+      text-align: center;
+}
+
+.center ul li {
+      display: inline;
+      margin: 0 10px;
+}
+
+.center ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-family: Poppins;
+}
+
+.center ul li h1 {
+      display: inline;
+}
+
+.center li h1 {
+      font-size: 40pt;
+      font-family: 'Racing Sans One';
+
+}
+
+.banner {
+      overflow: hidden;
+}
+
+.banner .image1 img {
+      width: 100vw;
+      height: auto;
+}
+
+.banner .heading1 h1 center {
+      font-size: 20px;
+      padding-bottom: 200px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading1 h3 center b {
+      font-size: 14px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading2 h1 center {
+      font-size: 20px;
+      padding-bottom: 200px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading2 h3 center b {
+      font-size: 14px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading3 h1 center {
+      font-size: 20px;
+      padding-bottom: 200px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading3 h3 center b {
+      font-size: 14px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading4 h1 center {
+      font-size: 20px;
+      padding-bottom: 200px;
+      font-family: 'Helvetica';
+
+}
+
+.banner .heading4 h3 center b {
+      font-size: 14px;
+      font-family: 'Helvetica';
+
+}
